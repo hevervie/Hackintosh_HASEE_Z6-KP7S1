@@ -82,7 +82,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>arch=x86_64 slide=0 dart=0 -disablegfxfirmware</string>
+		<string>arch=x86_64 slide=0 dart=0 -disablegfxfirmware agdpmod=pikera</string>
 		<key>Debug</key>
 		<false/>
 		<key>Legacy</key>
@@ -160,7 +160,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>black_green</string>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
