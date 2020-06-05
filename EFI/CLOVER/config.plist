@@ -82,13 +82,21 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>arch=x86_64 slide=0 dart=0 -disablegfxfirmware agdpmod=pikera</string>
+		<string>arch=x86_64 slide=0 dart=0 -disablegfxfirmware agdpmod=pikera igfxonln=1</string>
 		<key>Debug</key>
 		<false/>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
+		<key>HibernationFixup</key>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>10</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -131,6 +139,8 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>ConsoleMode</key>
+		<string>Max</string>
 		<key>Hide</key>
 		<array>
 			<string>Recovery HD</string>
@@ -138,7 +148,7 @@
 			<string>BOOTX64.EFI</string>
 		</array>
 		<key>Language</key>
-		<string>en:0</string>
+		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -160,7 +170,9 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>SimpleThemeDark</string>
+		<string>black_green</string>
+		<key>Timezone</key>
+		<integer>8</integer>
 	</dict>
 	<key>Graphics</key>
 	<dict>
