@@ -12,11 +12,21 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>AddDTGP</key>
+				<false/>
 				<key>AddHDMI</key>
 				<true/>
+				<key>AddMCHC</key>
+				<false/>
 				<key>AddPNLF</key>
 				<true/>
 				<key>FixHDA</key>
+				<true/>
+				<key>FixHPET</key>
+				<true/>
+				<key>FixIPIC</key>
+				<true/>
+				<key>FixShutdown</key>
 				<true/>
 			</dict>
 			<key>Name</key>
@@ -107,7 +117,7 @@
 		<key>EFILoginHiDPI</key>
 		<integer>1</integer>
 		<key>UIScale</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -143,18 +153,14 @@
 		<string>Max</string>
 		<key>Hide</key>
 		<array>
-			<string>BOOTX64.EFI</string>
-			<string>Windows</string>
 			<string>Recovery HD</string>
+			<string>Windows</string>
+			<string>BOOTX64.EFI</string>
 		</array>
-		<key>KbdPrevLang</key>
-		<true/>
 		<key>Language</key>
 		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
-			<key>DoubleClick</key>
-			<integer>800</integer>
 			<key>Enabled</key>
 			<true/>
 			<key>Mirror</key>
@@ -166,13 +172,13 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
-		<key>ShowOptimus</key>
-		<true/>
 		<key>Theme</key>
 		<string>CrispyOSX</string>
 		<key>Timezone</key>
